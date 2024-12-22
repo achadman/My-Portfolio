@@ -4,19 +4,25 @@ html {
 
 body {
     margin-bottom: 120px;
-    background-color: #70ffe0;
+    font-family: Inria Serif,Arial, Helvetica, sans-serif;
 
     
 }
 .jumbotron{
-    background-color: #2bcf83;
+    background-color: #70cbff;
 }
 
 .jumbotron img {
     width: 250px;
     border: 4px solid #222222;
 }
-
+.about{
+    height: 800px;
+}
+.portfolio{
+    min-height: auto;
+    height: 800px;
+}
 .jumbotron img:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
@@ -29,20 +35,20 @@ hr {
 }
 
 section {
-    min-height: 500px;
+    min-height: 550px;
 }
 .portfolio{
     background-color: #70cbff;
-
+    padding-top: 40px;
 }
 .about p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: justify;
-    letter-spacing: 1px;
+    letter-spacing: 0.1em;
 }
 
 .about p::first-letter {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
     float: left;
     margin-right: 10px;
@@ -50,23 +56,11 @@ section {
     color: #cf45eb;
 }
 
-button,
-label,
-a,
-h2,
-h1,
-p {
-    font-family: Inria Serif;
-}
 
-.contact .container {
-    background-color: #fcfcfc75;
-    border-radius: 40px;
-    padding: 20px 0px ;
-    border: 4px solid white;
-}
 .contact {
-    height: 700px;
+    height: 800px;
+    min-width: 400px;
+    padding-top: 40px;
 }
 
 footer {
